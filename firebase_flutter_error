@@ -1,0 +1,9 @@
+firebase  - flutter error solution_pubspec.yaml
+
+line 45
+
+minSdkVersion 19      (Fix)
+multiDexEnabled true  (add)
+
+line 72
+implementation "com.android.support:multidex:1.0.3"  (Add)
